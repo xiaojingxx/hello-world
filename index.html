@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Login | µbox</title>
+        <meta charset = "UTF-8">
+        <title>Sermon Feedback</title>
     </head>
+
     <body>
-        <center>
-            <h1>µbox</h1>
-            <h3>Log in to your account</h3>
-            
-            <form class="" action="homepg.html" method="post">
-                <table>
-                    <tr>
-                        <td>
-                            <label>Username</label>
-                        </td>
-                        <td>
-                            <input type="text" name="" value="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label>Password</label>
-                        </td>
-                        <td>
-                            <input type="password" name="" value="">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <input type="submit" name="">
-                        </td>
-                    </tr>
-                </table>
-            </form>
-            <p>
-                <a href="password_reset.html">Forgot password?</a>
-                New to <strong>µbox</strong>? <a href="signup.html">Sign up now</a>
-            </p>
-        </center>
+
+        <h1> Sermon Feedback Portal</h1>
+        
+        <form action="mailto:ncsermonfeedback@gmail.com" method="post" enctype="text/plain">
+
+        <label>Name</label></br>
+        <input type="text" name="yourName" value=""></br>
+
+        <label>Email</label><br>
+        <input type="email" name="yourEmail" value=""></br>
+
+        <label for = "LG-select">Lifegroup</label></br>
+        <select name = "Lifegroup" id="LG-select">
+        <optgroup><option value = "">New Culture</option></optgroup> 
+        <option value = "NC-Kanai">NC-Kanai</option>
+        <option value = "NC-Pursuit">NC-Pursuit</option>
+        </select>
+    </br>
+
+        <label>Sermon Date</label></br>
+        <input type="date" name="smDate" value=""><br>
+
+        <label>Feedback</label></br>
+        <textarea name="yourFeedback" rows="10" columns="30"></textarea></br>
+
+        <input type = "submit" name="">
+
+        </form>
+        <hr>
+        <blockquote>
+            Do not merely listen to the word, and so deceive yourselves. Do what it says. </br>
+            James 1:22
+        </blockquote>
+ 
     </body>
 </html>
